@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size:xx-large;
+  color: white;
+}
+
+
+
+
+.app-logo{
+  height:90px;
+  width:90px;
+  padding:10px;
+  border-radius:50px;
+  
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  background: black;
+  }
+
+nav > center{
+  margin-top: 25px;
+  font-family: 'Lucida Sans Unicode';
+  font-size:xx-large;
+  font-style: oblique;
+  color:rgb(125, 233, 233);
+}
+
+nav > ul{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav > ul >li{
+  list-style-type: none;
+  margin : 5px;
+  border: 1px solid whitesmoke;
+  border-color: whitesmoke;
+  border-radius: 25px;
+  padding: 10px;
+  color: whitesmoke;
+  font-size: larger;
+  font-family: Georgia;
+}
+
+nav>ul>img{
+  height:80px;
+  width:70px;
+  border-radius: 75px;
+  margin-left: 50px;
+}
+
+nav > ul >li:hover{
+  cursor:pointer;
+}
+
+.search-bar{
+  padding: 10px;
+  border-color: #282c34;
+  margin-left: 15px;
+  border-radius: 25 px;
+  font-size:large;
+  font-family: 'Franklin Gothic Medium';
+
+}
+
+.search-bar > button{
+  margin-left: 10px;
+  background-color: transparent;
+  border-color: 1px solid black;
+  border-radius: 25 px;
+}
+
+.shopping-card {
+  margin: 15px;
+  border-radius: 25px;
+  width: 425px;
+  height: 450px;
+  border: 1px solid rgb(247, 244, 244);
+}
+
+.shopping-card:hover{
+  border: 1px solid gray;
+  cursor:pointer;
+}
+
+.shopping-card > img {
+  width: 400px;
+  height: 300px;
+  border-radius: 25px;
+  padding: 10px;
+  transition: transform 0.3s;
+
+}
+
+.shopping-card > img:hover {
+  transform: scale(1.1);
+}
+
+.card-details{
+  display:flex;
+  text-transform: capitalize;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.material-container{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+footer{
+  border:1px solid gray;
+  height:100px;
+  margin: 10px;
+  padding: 10px;
+  color:white;
+  background-color: black;
+}
