@@ -1,4 +1,4 @@
-const shopdata=[
+export const shopdata=[
     {
       id:1,
       name:"Men's Wear",

@@ -51,13 +51,19 @@ nav > ul{
 nav > ul >li{
   list-style-type: none;
   margin : 5px;
-  border: 1px solid whitesmoke;
-  border-color: whitesmoke;
-  border-radius: 25px;
   padding: 10px;
   color: whitesmoke;
   font-size: larger;
   font-family: Georgia;
+}
+
+nav > ul >li  a{
+  text-decoration:none;
+  color:whitesmoke;
+}
+
+nav > ul >li > a:hover{
+  color:aquamarine;
 }
 
 nav>ul>img{
@@ -81,11 +87,21 @@ nav > ul >li:hover{
 
 }
 
-.search-bar > button{
-  margin-left: 10px;
-  background-color: transparent;
-  border-color: 1px solid black;
-  border-radius: 25 px;
+.search-input {
+  width: 300px; 
+  height: 60px;  
+}
+
+.search-button {
+  margin-left: 10px;  
+  padding: 10px;     
+  font-size: 16px;  
+  color: black;
+  font-style: oblique;
+  font-family: 'Courier New'; 
+  border: 1px solid transparent;
+  background-color: white; 
+  
 }
 
 .shopping-card {
@@ -127,10 +143,14 @@ nav > ul >li:hover{
   flex-wrap: wrap;
 }
 
+.material-container a{
+  text-decoration: none;
+  color:black;
+}
+
 footer{
   border:1px solid gray;
   height:100px;
-  margin: 10px;
   padding: 10px;
   color:white;
   background-color: black;

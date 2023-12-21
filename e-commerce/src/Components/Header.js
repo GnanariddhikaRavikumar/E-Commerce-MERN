@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Header = ()=>{
     return(
       <nav className='header'>
@@ -7,9 +9,9 @@ const Header = ()=>{
       alt ="website-logo" ></img>
       <center>All Goods Galore</center>
       <ul>
-        <li>HOME</li>
-        <li>ABOUT</li>
-        <li>CONTACT</li>
+        <li><Link to="/">HOME</Link></li>
+        <li><Link to="/about">ABOUT</Link></li>
+        <li><Link to="/contact"> CONTACT</Link></li>
         <img src =
         "https://static.vecteezy.com/system/resources/previews/008/302/513/non_2x/eps10-blue-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-white-background-free-vector.jpg" 
         alt ="Profile"></img>
