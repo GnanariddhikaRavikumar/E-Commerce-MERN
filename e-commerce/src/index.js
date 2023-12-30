@@ -34,7 +34,7 @@ const approuter = createBrowserRouter([
         
       },
       {
-        path:'/shop/:id',
+        path:'/shop/:shopid',
         element:<ShopDetail/>,
         
       },

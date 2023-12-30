@@ -2,6 +2,7 @@ import Shoppingcards from "./ShoppingCard";
 import shopdata from "../Common/MockData";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+//import Commoncards from "./CommonFile";
 
 
 const Body = () =>{
